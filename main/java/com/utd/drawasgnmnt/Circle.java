@@ -1,7 +1,6 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 5, starting April 13, 2021.
-//        NetID: njd170130
+// Dobmeier
 
-// This class is present to act as an information-expert to represent the attributes of each individual circle/point on-screen
+// This class acts as an information-expert to represent the attributes of each individual circle/point on-screen
 
 package com.utd.drawasgnmnt;
 
