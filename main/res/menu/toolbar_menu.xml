@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_save_action"
+        android:title="Save"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_save" />
+
+    <item
+        android:id="@+id/ic_open_action"
+        android:title="Open"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_open" />
+
+
+    <item
+        android:id="@+id/ic_testing_action"
+        android:title="Testing"
+        app:showAsAction="never" />
+
+</menu>
