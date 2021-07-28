@@ -1,5 +1,4 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 5, starting April 13, 2021.
-//        NetID: njd170130
+// Dobmeier
 
 // In this file, the XML is inflated (including the custom Follow-View class), and also creates a listener for the SeekBar,
 //    and click-listener for all of the color buttons, and another click-listener for the undo button
