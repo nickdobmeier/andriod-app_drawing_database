@@ -1,5 +1,4 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 6, starting May 1, 2021.
-//        NetID: njd170130
+// Dobmeier
 
 // This class acts as the actual SQLite database itself. It creates the database in onCreate(), and supplies getWritableDatabase() & getReadableDatabase() functions for working directly with the DB
 
