@@ -1,5 +1,4 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 6, starting May 1, 2021.
-//        NetID: njd170130
+// Dobmeier
 
 // This file gives the blueprint for the SQLite database, including all the tables and each field that belongs to each table.
 
