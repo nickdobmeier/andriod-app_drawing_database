@@ -1,5 +1,4 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 6, starting May 1, 2021.
-//        NetID: njd170130
+// Dobmeier
 
 // In this activity file, the list of drawings are pulled from the database, and then the user has the option of loading one into the MainActivity canvas
 
