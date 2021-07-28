@@ -1,5 +1,4 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 5, starting April 13, 2021.
-//        NetID: njd170130
+// Dobmeier
 
 // In this file,  the constructor creates a Stack of ArrayLists (of Circles), and also creates an onTouchListener for this View object that appears in the XML
 //    onDraw() is overridden to draw EVERY circle stored in the Stack of ArrayLists (of Circles) each time invalidate is called
