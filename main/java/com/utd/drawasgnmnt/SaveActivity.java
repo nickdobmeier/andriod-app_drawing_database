@@ -1,5 +1,4 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 6, starting May 1, 2021.
-//        NetID: njd170130
+// Dobmeier
 
 // In this activity file, drawings are passed from the MainActivity (through "STACK"), and have the option of being stored in the SQLite database
 
