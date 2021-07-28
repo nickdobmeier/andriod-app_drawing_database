@@ -1,5 +1,4 @@
-// Written by Nicholas Dobmeier for CS 4301.001, for assignment 6, starting May 1, 2021.
-//        NetID: njd170130
+// Dobmeier
 
 // This class is designed to be the interface between the activities and the actual SQLite database, so the activities are not working on the DB directly
 
