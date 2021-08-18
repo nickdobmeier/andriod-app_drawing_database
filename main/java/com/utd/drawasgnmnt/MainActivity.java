@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity
         getMenuInflater().inflate(R.menu.toolbar_menu, menu);
         return true;
     }
-            // helpful: https://www.youtube.com/watch?v=oh4YOj9VkVE
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -91,14 +91,14 @@ public class MainActivity extends AppCompatActivity
 
 
         switch (id){
-            case R.id.ic_save_action:   // when the SAVE icon on the activity bar is clicked
+            case R.id.ic_save_action:                               // when the SAVE icon on the activity bar is clicked
                 Stack<ArrayList<Circle>> StackOfArrays = followView.StackOfArrays;
                 Intent intent_1 = new Intent(this, SaveActivity.class);
                 intent_1.putExtra("STACK", StackOfArrays);
                 startActivityForResult(intent_1, 1001);
-                return true;    // always return TRUE after an item on the activity bar is clicked
+                return true;                                        // always return TRUE after an item on the activity bar is clicked
 
-            case R.id.ic_open_action:   // when the OPEN icon on the activity bar is clicked
+            case R.id.ic_open_action:                               // when the OPEN icon on the activity bar is clicked
                 Intent intent_2 = new Intent(this, OpenActivity.class);
                 startActivityForResult(intent_2, 1002);
                 return true;
@@ -117,12 +117,12 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data)
     {
-        super.onActivityResult(requestCode, resultCode, data);  // why need this?
+        super.onActivityResult(requestCode, resultCode, data);
 
-        if(resultCode == 789)                                   // when the return from SaveActivity or OpenActivity was successful
+        if(resultCode == 789)                                       // when the return from SaveActivity or OpenActivity was successful
         {
 
-            if (requestCode == 1001)                            // returning from SaveActivity when it was called from SAVE button being pressed
+            if (requestCode == 1001)                                // returning from SaveActivity when it was called from SAVE button being pressed
             {
                 Boolean didSave = (Boolean) data.getSerializableExtra("DID_SAVE");
 
@@ -175,22 +175,18 @@ public class MainActivity extends AppCompatActivity
     {
         Button buttonClicked = (Button) view;
         if(buttonClicked.hashCode() == redButton.hashCode()){
-            //System.out.println("red");
             followView.setCurrentCircleColor(Color.rgb(0xFF, 0x00, 0x00));  // hex-code for RED
         }
 
         else if(buttonClicked.hashCode() == greenButton.hashCode()){
-            //System.out.println("green");
             followView.setCurrentCircleColor(Color.rgb(0x00, 0xFF, 0x00));  // hex-code for GREEN
         }
 
         else if(buttonClicked.hashCode() == blueButton.hashCode()){
-            //System.out.println("blue");
             followView.setCurrentCircleColor(Color.rgb(0x00, 0x00, 0xFF));  // hex-code for BLUE
         }
 
         else if(buttonClicked.hashCode() == blackButton.hashCode()){
-            //System.out.println("black");
             followView.setCurrentCircleColor(Color.BLACK);
         }
     }
